@@ -1,0 +1,50 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems a {
+    color: #60658a;
+    text-decoration: none;
+
+}
+
+.dialogsItems a.activeLink {
+    color: #50b5ff;
+}
+
+
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+    color: #8a606a;
+    padding-top: 5px;
+    padding-bottom: 55px;
+}
+
+.slc textarea {
+    background-color: #E6EEEA;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #29324f;
+    color: #50b5ff;
+    padding: .5rem !important;
+    border-radius: 5px !important;
+    right: 53%
+}

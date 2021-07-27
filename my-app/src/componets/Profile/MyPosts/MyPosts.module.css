@@ -1,0 +1,24 @@
+.postsBlock {
+    padding: 10px;
+}
+
+.messangBlock {
+    padding-top: 10px;
+}
+
+.slc textarea {
+    background-color: #E6EEEA;
+    width: 1004px;
+    height: 84px;
+}
+
+.btn {
+    background-color: #29324f;
+    color: #50b5ff;
+    /*  width: 162px;
+      height: 36px;*/
+    padding: .5rem !important;
+    border-radius: 5px !important;
+/*    position: absolute;*/
+    right: 14%
+}

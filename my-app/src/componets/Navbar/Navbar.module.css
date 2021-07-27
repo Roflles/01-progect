@@ -1,0 +1,40 @@
+.nav {
+    grid-area: n;
+    background: #1e2745;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    line-height: 1;
+}
+
+.item {
+    padding: 15px;
+    line-height: 18px;
+
+}
+
+.item a {
+    color: #60658a;
+    text-decoration: none;
+
+}
+
+.item a.activeLink {
+    color: #50b5ff;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navFriends{
+
+}
