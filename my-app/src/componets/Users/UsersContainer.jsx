@@ -47,7 +47,6 @@ class UsersAPIComponent extends React.Component {
                    follow={this.props.follow}
                    unfollow={this.props.unfollow}
                    createPages={this.createPages}
-                   toggleFollowingProgress={this.props.toggleFollowingProgress}
                    followingInProgress={this.props.followingInProgress}
             />
         </>

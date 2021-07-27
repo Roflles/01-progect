@@ -18,15 +18,15 @@ export const usersAPI = {
 };
 
 export const followAPI = {
-    deleteUnfollow(id) {
-        return instance.delete(`follow/${id}`)
+    deleteUnfollow(userId) {
+        return instance.delete(`follow/${userId}`)
             .then(response => {
                 return response.data;
             });
     },
 
-    postFollow(id) {
-        return instance.post(`follow/${id}`)
+    postFollow(userId) {
+        return instance.post(`follow/${userId}`)
             .then(response => {
                 return response.data;
             });
@@ -41,6 +41,21 @@ export const authAPI = {
             });
     }
 };
+
+/*export const authAPI = {
+    getAuthMe() {
+        return instance.get(`profile/` + userId)
+            .then(response => {
+                return response.data;
+            });
+    }
+};
+
+/!*axios.get(`https://social-network.samuraijs.com/api/1.0/profile/` + userId)
+    .then(response => {
+        this.props.setUserProfile(response.data);
+
+    });*!/*/
 
 
 
