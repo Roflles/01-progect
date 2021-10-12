@@ -1,0 +1,9 @@
+.selectedPage {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.selectedPagesDefold {
+    color: #50b5ff;
+    padding: 5px 10px;
+}

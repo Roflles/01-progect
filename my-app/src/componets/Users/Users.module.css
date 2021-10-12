@@ -3,13 +3,3 @@
     width: 60px;
     border-radius: 50%;
 }
-
-.selectedPage {
-    color: #ffffff;
-    font-weight: 700;
-}
-
-.selectedPageDefold {
-    color: #50b5ff;
-    padding: 5px 10px;
-}
