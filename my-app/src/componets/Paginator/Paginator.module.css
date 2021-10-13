@@ -1,9 +1,13 @@
+.paginator {
+    margin: 10px;
+
+}
+
 .selectedPage {
-    color: #ffffff;
+    color: #50b5ff;
     font-weight: 700;
 }
 
-.selectedPagesDefold {
-    color: #50b5ff;
-    padding: 5px 10px;
+.selectedPagesDefold span  {
+    padding: 3px ;
 }
