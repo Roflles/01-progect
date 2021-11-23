@@ -5,6 +5,12 @@ const Settings = (props) => {
     return (
         <div>
             Settings
+            <ul>
+                <li>Profile</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
     )
 }
